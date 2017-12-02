@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:gravity="center_vertical"
+    android:background="@drawable/myborderlistview"
+    >
+
+    <TextView
+        android:id="@+id/item_navi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="textView"
+        android:paddingLeft="16dp"
+        android:textSize="20sp"
+        android:textColor="@color/white"/>
+
+    <Switch
+        android:id="@+id/switch_navi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:theme="@style/SCBSwitch"/>
+</LinearLayout>

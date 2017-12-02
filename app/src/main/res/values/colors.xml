@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#ffffff</color>
+
+    <color name="ActionBar">#292929</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#292929</color>
+
+    <!--switch color -->
+    <color name="disable_foreground_grey">#ffffff</color>
+    <color name="disable_thumb_grey">#1c000000</color>
+    <color name="enable_thumb_green">#4ebf46</color>
+
+</resources>

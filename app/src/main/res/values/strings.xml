@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Buddy Locator</string>
+    <string name="title_activity_sign_up_by_phone">SignUpByPhone</string>
+    <string name="app_name_two_line">Buddy\nLocator</string>
+
+    <string name="drawer_open">Open Navigation drawer</string>
+    <string name="drawer_close">Close Navigation drawer</string>
+    <string name="title_activity_friends">Friends</string>
+    <string name="delete">Delete</string>
+    <string name="confirm">Confirm</string>
+</resources>

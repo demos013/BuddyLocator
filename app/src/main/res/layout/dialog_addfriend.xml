@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="275dp"
+    android:layout_height="130dp"
+    android:orientation="vertical"
+    android:background="@drawable/myborderdialog">
+
+    <EditText
+        android:id="@+id/receiver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="16dp"
+        android:hint="Your Friend Email"
+        android:inputType="textEmailAddress"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="0.5">
+
+        <Button
+            android:id="@+id/button_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginRight="10dp"
+            android:padding="16dp"
+            android:text="OK"
+            android:background="@drawable/myborder"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/button_addfriend_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:padding="16dp"
+            android:text="Cancel"
+            android:background="@drawable/myborder"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+</LinearLayout>
+
